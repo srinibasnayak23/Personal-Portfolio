@@ -12,7 +12,7 @@ export function Hero() {
             Crafting Digital Experiences
           </h1>
           <p className="max-w-xl text-lg text-muted-foreground md:text-xl">
-            Hi, I&apos;m a passionate software engineer specializing in building modern, responsive, and user-friendly web applications with the MERN stack.
+            Hi, I&apos;m a passionate software engineer specializing in building modern web applications and native Android apps with Kotlin and Jetpack Compose.
           </p>
           <div className="flex flex-col items-center gap-4 sm:flex-row md:justify-start">
             <Button asChild size="lg">
