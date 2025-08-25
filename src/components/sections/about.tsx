@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 export function About() {
   const skills = [
     'JavaScript (ES6+)', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Express',
-    'MongoDB', 'Mongoose', 'REST APIs', 'GraphQL', 'HTML5 & CSS3', 'Tailwind CSS',
+    'MongoDB', 'REST APIs', 'GraphQL', 'HTML5 & CSS3', 'Tailwind CSS', 'Kotlin', 'Jetpack Compose',
     'Git & GitHub', 'Docker', 'Jest'
   ];
 
@@ -35,10 +35,10 @@ export function About() {
               </CardHeader>
               <CardContent className="text-muted-foreground space-y-4">
                 <p>
-                  From a young age, I&apos;ve been captivated by how things work, which naturally led me to the world of software engineering. My journey started with a simple &quot;Hello, World!&quot; and has since evolved into building full-stack applications that solve real-world problems.
+                  From a young age, I&apos;ve been captivated by how things work, which naturally led me to the world of software engineering. My journey started with a simple &quot;Hello, World!&quot; and has since evolved into building full-stack web and mobile applications that solve real-world problems.
                 </p>
                 <p>
-                  I am a recent graduate with a strong foundation in computer science and hands-on experience with the MERN stack. I thrive in collaborative environments and am always eager to learn new technologies and improve my craft. My goal is to leverage my skills to build beautiful, functional, and scalable software products.
+                  I am a recent graduate with a strong foundation in computer science and hands-on experience with both web technologies and native Android development. I thrive in collaborative environments and am always eager to learn new technologies and improve my craft. My goal is to leverage my skills to build beautiful, functional, and scalable software products.
                 </p>
               </CardContent>
             </Card>

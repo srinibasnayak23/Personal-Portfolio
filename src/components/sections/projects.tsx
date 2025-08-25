@@ -19,6 +19,15 @@ const projectsData = [
     aiHint: 'e-commerce product'
   },
   {
+    title: 'Android Fitness App',
+    description: 'A native Android application to track workouts and fitness goals, built with Kotlin and Jetpack Compose for a modern UI.',
+    image: 'https://placehold.co/600x400.png',
+    tags: ['Kotlin', 'Jetpack Compose', 'Android'],
+    github: 'https://github.com',
+    live: 'https://play.google.com',
+    aiHint: 'fitness app'
+  },
+  {
     title: 'Task Management App',
     description: 'A Trello-like task management application with drag-and-drop functionality for organizing tasks and projects.',
     image: 'https://placehold.co/600x400.png',
