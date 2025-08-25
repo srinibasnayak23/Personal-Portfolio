@@ -22,7 +22,7 @@ const servicesData = [
 export function Services() {
   return (
     <section id="services" className="w-full">
-      <div className="container mx-auto px-4 py-16 md:px-6 md:py-24">
+      <div className="container mx-auto px-4 py-16 md:px-6 md:py-24 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl font-headline">My Services</h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">

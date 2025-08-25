@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 export function Hero() {
   return (
     <section id="hero" className="w-full">
-      <div className="container mx-auto grid min-h-[calc(100vh-4rem)] grid-cols-1 items-center gap-12 px-4 py-16 md:grid-cols-2 md:px-6 lg:gap-20">
+      <div className="container mx-auto grid min-h-[calc(100vh-4rem)] grid-cols-1 items-center gap-12 px-4 py-16 md:grid-cols-2 md:px-6 lg:gap-20 lg:px-8">
         <div className="space-y-6 text-center md:text-left">
           <h1 className="text-4xl font-bold tracking-tighter text-primary sm:text-5xl md:text-6xl lg:text-7xl font-headline">
             Crafting Digital Experiences
