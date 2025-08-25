@@ -1,0 +1,45 @@
+import Link from 'next/link';
+import Image from 'next/image';
+import { Button } from '@/components/ui/button';
+import { ArrowRight } from 'lucide-react';
+
+export function Hero() {
+  return (
+    <section id="hero" className="w-full">
+      <div className="container mx-auto grid min-h-[calc(100vh-4rem)] grid-cols-1 items-center gap-12 px-4 py-16 md:grid-cols-2 md:px-6 lg:gap-20">
+        <div className="space-y-6 text-center md:text-left">
+          <h1 className="text-4xl font-bold tracking-tighter text-primary sm:text-5xl md:text-6xl lg:text-7xl font-headline">
+            Crafting Digital Experiences
+          </h1>
+          <p className="max-w-xl text-lg text-muted-foreground md:text-xl">
+            Hi, I&apos;m a passionate software engineer specializing in building modern, responsive, and user-friendly web applications with the MERN stack.
+          </p>
+          <div className="flex flex-col items-center gap-4 sm:flex-row md:justify-start">
+            <Button asChild size="lg">
+              <Link href="#contact">
+                Get in Touch
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+            </Button>
+            <Button asChild variant="outline" size="lg">
+              <Link href="#projects">
+                View My Work
+              </Link>
+            </Button>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <Image
+            src="https://placehold.co/500x500.png"
+            alt="Developer portrait"
+            width={500}
+            height={500}
+            priority
+            className="rounded-full shadow-2xl aspect-square object-cover"
+            data-ai-hint="developer portrait"
+          />
+        </div>
+      </div>
+    </section>
+  );
+}
