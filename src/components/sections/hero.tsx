@@ -30,7 +30,7 @@ export function Hero() {
         </div>
         <div className="flex justify-center">
           <Image
-            src="https://placehold.co/500x500.png"
+            src="https://media.licdn.com/dms/image/v2/D5603AQEMq8L0ZUn2bA/profile-displayphoto-shrink_400_400/B56ZdsZeWkHQAg-/0/1749870311144?e=1758758400&v=beta&t=boNoHXd7kGG5Hw6V6lH5zC1_1ZZeBNNfSSDWqDtsgTI"
             alt="Developer portrait"
             width={500}
             height={500}
