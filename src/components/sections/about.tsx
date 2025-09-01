@@ -36,10 +36,10 @@ export function About() {
               </CardHeader>
               <CardContent className="text-muted-foreground space-y-4">
                 <p>
-                  I've always been passionate about technology, even before I knew what a software engineer did. My journey began in a residential school where personal gadgets were off-limits. The only tech access we had was during computer class, where media playback was restricted. As a music lover, this was a challenge I was determined to overcome.
+                  I&apos;ve always been passionate about technology, even before I knew what a software engineer did. My journey began in a residential school where personal gadgets were off-limits. The only tech access we had was during computer class, where media playback was restricted. As a music lover, this was a challenge I was determined to overcome.
                 </p>
                 <p>
-                  After learning from my computer teacher that websites were built with something called HTML, a friend and I had an idea: what if we built a website to play music and videos? We dove into library books, starting with simple `<h1>` tags to display our names. Our teacher, impressed by our initiative, gave us more freedom to experiment. Soon, we were using `<audio>` and `<video>` tags to bring our favorite songs to the classroom. That was my "Hello, World!" moment—not just printing text, but solving a problem with code.
+                  After learning from my computer teacher that websites were built with something called HTML, a friend and I had an idea: what if we built a website to play music and videos? We dove into library books, starting with simple `<h1>` tags to display our names. Our teacher, impressed by our initiative, gave us more freedom to experiment. Soon, we were using `<audio>` and `<video>` tags to bring our favorite songs to the classroom. That was my &quot;Hello, World!&quot; moment—not just printing text, but solving a problem with code.
                 </p>
                 <p>
                   That initial spark has grown into a career. Today, I channel that same curiosity and problem-solving spirit into building full-stack web and mobile applications that are both functional and elegant.
