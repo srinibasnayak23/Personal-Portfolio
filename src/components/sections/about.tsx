@@ -6,7 +6,7 @@ export function About() {
   const skills = [
     'JavaScript (ES6+)', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Express',
     'MongoDB', 'REST APIs', 'GraphQL', 'HTML5 & CSS3', 'Tailwind CSS', 'Kotlin', 'Jetpack Compose',
-    'Git & GitHub', 'Docker', 'Jest'
+    'Git & GitHub', 'Docker'
   ];
 
   return (

@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="border-t">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 py-6 md:flex-row md:px-6">
-        <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} CodeCanvas. All rights reserved.</p>
+        <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Srinibas Nayak. All rights reserved.</p>
         <div className="flex items-center gap-2">
           <Button variant="ghost" size="icon" asChild>
             <Link href="https://github.com" target="_blank" rel="noopener noreferrer">

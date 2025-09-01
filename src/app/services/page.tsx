@@ -1,5 +1,7 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Laptop, Smartphone, PenTool } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
+import { Laptop, Smartphone, PenTool, ArrowRight } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 const servicesData = [
   {
@@ -34,14 +36,22 @@ export default function ServicesPage() {
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {servicesData.map((service, index) => (
-            <Card key={index} className="text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+            <Card key={index} className="text-center flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
               <CardHeader className="items-center">
                 {service.icon}
                 <CardTitle className="mt-4">{service.title}</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="flex-grow">
                 <p className="text-muted-foreground">{service.description}</p>
               </CardContent>
+              <CardFooter className="justify-center pt-4">
+                <Button asChild variant="outline">
+                    <Link href={`/services/${service.slug}`}>
+                        Explore More
+                        <ArrowRight className="ml-2 h-4 w-4" />
+                    </Link>
+                </Button>
+              </CardFooter>
             </Card>
           ))}
         </div>

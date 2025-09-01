@@ -67,7 +67,7 @@ export function Projects() {
 
   return (
     <section id="projects" className="w-full">
-      <div className="container mx-auto px-4 py-16 md:px-6 md:py-24 lg:px-20">
+      <div className="container mx-auto px-12 py-4 md:px-6 md:py-24 lg:px-20">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl font-headline">My Projects</h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">A selection of my work. Feel free to explore the code and live demos.</p>
