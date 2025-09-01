@@ -108,29 +108,29 @@ export function Projects() {
                 </div>
               </CardHeader>
               <div className="p-6 flex flex-col flex-grow">
-                  <CardTitle>{project.title}</CardTitle>
-                  <CardDescription className="mt-2">{project.description}</CardDescription>
-                  <CardContent className="p-0 pt-4 flex-grow">
-                    <div className="flex flex-wrap gap-2">
-                      {project.tags.map(tag => (
-                        <Badge key={tag} variant="secondary">{tag}</Badge>
-                      ))}
-                    </div>
-                  </CardContent>
-                  <CardFooter className="p-0 pt-6 flex justify-end gap-2">
-                    <Button asChild variant="outline" size="sm">
-                      <Link href={project.github} target="_blank" rel="noopener noreferrer">
-                        <Github className="mr-2 h-4 w-4" />
-                        GitHub
-                      </Link>
-                    </Button>
-                    <Button asChild size="sm">
-                      <Link href={project.live} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="mr-2 h-4 w-4" />
-                        Live
-                      </Link>
-                    </Button>
-                  </CardFooter>
+                <CardTitle>{project.title}</CardTitle>
+                <CardDescription className="mt-2">{project.description}</CardDescription>
+                <CardContent className="p-0 pt-4 flex-grow">
+                  <div className="flex flex-wrap gap-2">
+                    {project.tags.map(tag => (
+                      <Badge key={tag} variant="secondary">{tag}</Badge>
+                    ))}
+                  </div>
+                </CardContent>
+                <CardFooter className="p-0 pt-6 flex justify-end gap-2">
+                  <Button asChild variant="outline" size="sm">
+                    <Link href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Github className="mr-2 h-4 w-4" />
+                      GitHub
+                    </Link>
+                  </Button>
+                  <Button asChild size="sm">
+                    <Link href={project.live} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Live
+                    </Link>
+                  </Button>
+                </CardFooter>
               </div>
             </Card>
           ))}
