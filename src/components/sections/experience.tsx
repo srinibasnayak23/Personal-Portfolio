@@ -3,19 +3,30 @@ import { Briefcase } from 'lucide-react';
 
 const experienceData = [
   {
-    role: 'Software Engineer Intern',
-    company: 'Innovate LLC',
-    period: 'Summer 2023',
+    role: 'Software Engineer',
+    company: 'Oditek Solution',
+    period: 'June 2024 - Present',
     description: [
-      'Contributed to the development of a new client-facing web application using React and Node.js.',
-      'Collaborated with a team of developers to implement new features and fix bugs.',
-      'Participated in code reviews and agile development processes.',
+      'Contribute to the development team on both Android and web projects.',
+      'Build and maintain Android applications using Kotlin, Jetpack Compose, and Room.',
+      'Develop cross-platform solutions with React Native.',
+      'Create and manage backend services with Node.js and Express.js.',
+    ],
+  },
+  {
+    role: 'Software Engineer Intern',
+    company: 'National Informatics Centre (NIC)',
+    period: 'Winter 2023',
+    description: [
+      'Worked on a grievance management system for NIC officials.',
+      'Gained experience in government-sector software development cycles.',
+      'Collaborated with a team to analyze requirements and implement features.',
     ],
   },
   {
     role: 'Freelance Web Developer',
     company: 'Self-Employed',
-    period: '2022 - Present',
+    period: '2022 - 2024',
     description: [
       'Designed and developed websites for small businesses and individuals.',
       'Managed all aspects of the project lifecycle, from initial consultation to deployment and maintenance.',

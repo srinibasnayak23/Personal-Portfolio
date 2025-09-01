@@ -4,8 +4,9 @@ import { Badge } from '@/components/ui/badge';
 
 export function About() {
   const skills = [
+    'Kotlin', 'Jetpack Compose', 'Android SDK', 'React Native', 'SQLite', 'Room',
     'JavaScript (ES6+)', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Express',
-    'MongoDB', 'REST APIs', 'GraphQL', 'HTML5 & CSS3', 'Tailwind CSS', 'Kotlin', 'Jetpack Compose',
+    'MongoDB', 'REST APIs', 'GraphQL', 'HTML5 & CSS3', 'Tailwind CSS',
     'Git & GitHub', 'Docker'
   ];
 
