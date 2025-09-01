@@ -6,14 +6,14 @@ import { ArrowRight } from 'lucide-react';
 export function Hero() {
   return (
     <section id="hero" className="w-full relative">
-       <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:16px_16px]"></div>
+      <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:16px_16px]"></div>
       <div className="container mx-auto grid min-h-[calc(100vh-4rem)] grid-cols-1 items-center gap-12 px-4 py-16 md:grid-cols-2 md:px-6 lg:gap-20 lg:px-20">
         <div className="space-y-6 text-center md:text-left">
           <h1 className="text-4xl font-bold tracking-tighter text-primary sm:text-5xl md:text-6xl lg:text-7xl font-headline">
             Crafting Digital Experiences
           </h1>
           <p className="max-w-xl text-lg text-muted-foreground md:text-xl">
-            Hi, I&apos;m a passionate software engineer specializing in building modern web applications and native Android apps with Kotlin and Jetpack Compose.
+            Hi, I&apos;m a software engineer driven by curiosity and problem-solving. I build full-stack web applications with React, Node.js, Express, and MongoDB, and native Android apps with Kotlin and Jetpack Compose—delivering solutions that are both functional and elegant.
           </p>
           <div className="flex flex-col items-center gap-4 sm:flex-row md:justify-start">
             <Button asChild size="lg">

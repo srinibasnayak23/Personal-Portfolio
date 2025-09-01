@@ -24,13 +24,12 @@ export function About() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-5 lg:gap-12 items-center">
           <div className="lg:col-span-2 flex justify-center">
             <Image
-              src="https://picsum.photos/400/500"
+              src="/profile.jpg" // replace with your profile image path
               alt="Portrait of Srinivas, Software Developer"
               width={400}
               height={500}
               priority
               className="rounded-lg shadow-xl object-cover w-full max-w-sm"
-              data-ai-hint="developer portrait"
             />
           </div>
           <div className="lg:col-span-3 space-y-6">
@@ -40,10 +39,15 @@ export function About() {
               </CardHeader>
               <CardContent className="text-muted-foreground space-y-4 leading-relaxed">
                 <p>
-                  My passion for technology began early. In my fully residential school, where personal gadgets were not allowed, my curiosity for tech found an outlet in our computer classes. After learning about HTML, a friend and I decided to build a simple website to play music and videos—something otherwise restricted. We issued a book on HTML from the library and, after some trial and error with basic tags, we created a raw, unstyled site.
+                  My passion for technology began early, even before I fully understood what a software engineer did. 
+                  In school, where personal gadgets were restricted, I discovered HTML and built a simple website 
+                  with a friend to play music and videos for our class. That experience became my true “Hello, World!” moment—realizing 
+                  that code could solve problems in creative ways.
                 </p>
                 <p>
-                  Our teacher was impressed by our initiative and gave us more freedom to explore. That simple project was my “Hello, World!” moment. It wasn’t just about listening to music; it was about realizing that code could bring ideas to life. That same drive to solve problems creatively has fueled my journey ever since, leading me to pursue a career in software engineering.
+                  Today, that same curiosity drives my career as a developer. I focus on building full-stack web and mobile 
+                  applications that are functional, user-friendly, and elegant—helping businesses and users achieve more 
+                  through technology.
                 </p>
               </CardContent>
             </Card>
