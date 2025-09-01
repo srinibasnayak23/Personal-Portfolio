@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 export function Hero() {
   return (
     <section id="hero" className="w-full">
-      <div className="container mx-auto grid min-h-[calc(100vh-4rem)] grid-cols-1 items-center gap-12 px-4 py-16 md:grid-cols-2 md:px-6 lg:gap-20 lg:px-8">
+      <div className="container mx-auto grid min-h-[calc(100vh-4rem)] grid-cols-1 items-center gap-12 px-4 py-16 md:grid-cols-2 md:px-6 lg:gap-20 lg:px-20">
         <div className="space-y-6 text-center md:text-left">
           <h1 className="text-4xl font-bold tracking-tighter text-primary sm:text-5xl md:text-6xl lg:text-7xl font-headline">
             Crafting Digital Experiences
@@ -32,8 +32,8 @@ export function Hero() {
           <Image
             src="https://media.licdn.com/dms/image/v2/D5603AQEMq8L0ZUn2bA/profile-displayphoto-shrink_400_400/B56ZdsZeWkHQAg-/0/1749870311144?e=1758758400&v=beta&t=boNoHXd7kGG5Hw6V6lH5zC1_1ZZeBNNfSSDWqDtsgTI"
             alt="Developer portrait"
-            width={500}
-            height={500}
+            width={400}
+            height={400}
             priority
             className="rounded-full shadow-2xl aspect-square object-cover"
             data-ai-hint="developer portrait"

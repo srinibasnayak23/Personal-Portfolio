@@ -39,14 +39,14 @@ const testimonialsData = [
 export function Testimonials() {
   return (
     <section id="testimonials" className="bg-secondary">
-        <div className="container mx-auto px-4 py-16 md:px-6 md:py-24 lg:px-8">
+        <div className="container mx-auto px-4 py-16 md:px-6 md:py-24 lg:px-20">
             <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold tracking-tight md:text-4xl font-headline">Endorsements</h2>
                 <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">What others say about my work and collaboration.</p>
             </div>
 
             <Carousel 
-                className="w-full max-w-xs sm:max-w-xl md:max-w-4xl mx-auto"
+                className="w-full max-w-xs sm:max-w-xl md:max-w-4xl lg:max-w-6xl mx-auto"
                 opts={{
                 align: "start",
                 loop: true,
