@@ -21,7 +21,7 @@ export function About() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-5 lg:gap-12 items-center">
           <div className="lg:col-span-2 flex justify-center">
             <Image
-              src="https://placehold.co/400x500.png"
+              src="https://picsum.photos/400/500"
               alt="Profile photo"
               width={400}
               height={500}
@@ -36,10 +36,13 @@ export function About() {
               </CardHeader>
               <CardContent className="text-muted-foreground space-y-4">
                 <p>
-                  From a young age, I&apos;ve been captivated by how things work, which naturally led me to the world of software engineering. My journey started with a simple &quot;Hello, World!&quot; and has since evolved into building full-stack web and mobile applications that solve real-world problems.
+                  I've always been passionate about technology, even before I knew what a software engineer did. My journey began in a residential school where personal gadgets were off-limits. The only tech access we had was during computer class, where media playback was restricted. As a music lover, this was a challenge I was determined to overcome.
                 </p>
                 <p>
-                  I am a recent graduate with a strong foundation in computer science and hands-on experience with both web technologies and native Android development. I thrive in collaborative environments and am always eager to learn new technologies and improve my craft. My goal is to leverage my skills to build beautiful, functional, and scalable software products.
+                  After learning from my computer teacher that websites were built with something called HTML, a friend and I had an idea: what if we built a website to play music and videos? We dove into library books, starting with simple `<h1>` tags to display our names. Our teacher, impressed by our initiative, gave us more freedom to experiment. Soon, we were using `<audio>` and `<video>` tags to bring our favorite songs to the classroom. That was my "Hello, World!" moment—not just printing text, but solving a problem with code.
+                </p>
+                <p>
+                  That initial spark has grown into a career. Today, I channel that same curiosity and problem-solving spirit into building full-stack web and mobile applications that are both functional and elegant.
                 </p>
               </CardContent>
             </Card>
