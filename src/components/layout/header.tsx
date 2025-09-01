@@ -23,31 +23,23 @@ export function Header() {
 
   const handleResumeCheck = () => {
     setCheckingResume(true);
-    toast({
-      title: 'AI Resume Check',
-      description: 'Our AI is checking if your resume is up-to-date...',
-    });
+    // In a real app, you'd call your AI service here.
     setTimeout(() => {
       const isUpdated = Math.random() > 0.5;
-      if (isUpdated) {
-        toast({
-          title: 'AI Resume Check Complete',
-          description: 'Your resume is up-to-date with your latest projects.',
-        });
-      } else {
-        toast({
-          title: 'AI Resume Check Complete',
-          description: 'AI recommends updating your resume with your latest accomplishments.',
-        });
-      }
+      toast({
+        title: 'AI Resume Check Complete',
+        description: isUpdated 
+          ? 'Your resume seems up-to-date with your latest projects.' 
+          : 'AI recommends updating your resume with your latest accomplishments.',
+      });
       setCheckingResume(false);
     }, 2000);
   };
 
   const navLinks = [
     { href: '/#about', label: 'About' },
+    { href: '/#services', label: 'Services' },
     { href: '/#experience', label: 'Experience' },
-    { href: '/services', label: 'Services' },
     { href: '/#projects', label: 'Projects' },
     { href: '/#testimonials', label: 'Endorsements' },
     { href: '/#contact', label: 'Contact' },

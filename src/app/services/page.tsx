@@ -6,16 +6,19 @@ const servicesData = [
     icon: <Laptop className="h-10 w-10 text-primary" />,
     title: 'Web Application Development',
     description: 'Creating responsive, full-stack web applications using modern technologies like React, Next.js, and Node.js to deliver seamless user experiences.',
+    slug: 'web-application-development',
   },
   {
     icon: <Smartphone className="h-10 w-10 text-primary" />,
     title: 'Mobile App Development',
     description: 'Building beautiful and performant native Android applications using Kotlin and Jetpack Compose, from concept to deployment on the Google Play Store.',
+    slug: 'mobile-app-development',
   },
   {
     icon: <PenTool className="h-10 w-10 text-primary" />,
     title: 'UI/UX Design',
     description: 'Designing intuitive and aesthetically pleasing user interfaces that focus on user-centered design principles to create engaging digital products.',
+    slug: 'ui-ux-design',
   },
 ];
 
