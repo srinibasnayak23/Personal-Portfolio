@@ -1,8 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Laptop, Smartphone, PenTool } from 'lucide-react';
-import Link from 'next/link';
-import { Button } from '../ui/button';
-import { ArrowRight } from 'lucide-react';
 
 const servicesData = [
   {
@@ -22,7 +19,7 @@ const servicesData = [
   },
 ];
 
-export function Services() {
+export default function ServicesPage() {
   return (
     <section id="services" className="w-full">
       <div className="container mx-auto px-4 py-16 md:px-6 md:py-24 lg:px-20 lg:py-28">
@@ -33,7 +30,7 @@ export function Services() {
           </p>
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-          {servicesData.slice(0, 3).map((service, index) => (
+          {servicesData.map((service, index) => (
             <Card key={index} className="text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
               <CardHeader className="items-center">
                 {service.icon}
@@ -44,14 +41,6 @@ export function Services() {
               </CardContent>
             </Card>
           ))}
-        </div>
-        <div className="mt-12 text-center">
-            <Button asChild>
-                <Link href="/services">
-                    Explore All Services
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-            </Button>
         </div>
       </div>
     </section>
